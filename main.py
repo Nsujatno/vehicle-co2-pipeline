@@ -14,9 +14,9 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
-
+# 
 # loading data
-data = pd.read_csv("vehicle_emissions.csv")
+data = pd.read_csv("vehicle_emissions.csv") 
 print(data.info())
 
 # create features and target variables
